@@ -1,6 +1,8 @@
 import glob
 import shutil
 
+#Instantly transfer files
+
 if 'lol' == 'lol':
     for f in glob.glob(r"C:\Users\admin\Downloads\*.pdf"):
         shutil.move(f, r"C:\Users\admin\Downloads\PDFS")
